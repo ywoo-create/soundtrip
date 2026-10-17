@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<head>
+    <title>11_(캡)스톤헤드_음악재생화면</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="11_(캡)스톤헤드 / 김도연(2514537) 김의린(2514088) 남현서(2516120) 조연우(2514298)">
+    <link rel="stylesheet" href="playing.css">
+</head>
+
+<body>
+    <header class="top-header" id="top">
+        <h2 class="logo">
+            <a href="#top">
+                <img src="logo.png" width="200" height="40" alt="soundtrip 로고">
+            </a>
+        </h2>
+
+        <form class="search-form" action="#" method="get">
+            <input type="text" id="search" name="search" placeholder="어디로 떠나 볼까요?">
+            <button type="submit">검색</button>
+        </form>
+
+        <nav>
+            <a href="#top">홈</a>
+            <a href="#playlist">뭔가 연결하자</a>
+            <a href="#credits">프로필 넣을까?</a>
+        </nav>
+    </header>
+
+    <div class="layout">
+        <aside class="sidebar" id="playlist">
+            <p class="country">JAPAN / TOKYO</p>
+            <h2>일본_도쿄</h2>
+            <p>OST</p>
+            <hr>
+            <h4>재생대기목록</h4>
+            <ol class="music-list">
+                <li class="selected-song"><a href="#player">Lemon <span>Kenshi Yonezu</span></a></li>
+                <li><a href="#nextsong">BETELGEUSE <span>Yuuri</span></a></li>
+                <li><a href="#nextsong">Pretender <span>Official髭男dism</span></a></li>
+                <li><a href="#nextsong">Zankyosanka <span>Aimer</span></a></li>
+                <li><a href="#nextsong">Uchiagehanabi <span>Daoko & Kenshi Yonezu</span></a></li>
+            </ol>
+        </aside>
+
+        <main class="main" id="player">
+            <section class="nowplaying">
+                <p>NOW PLAYING</p>
+                <h2>일본_도쿄_OST playlist</h2>
+
+                <figure class="albumcover">
+                    <img src="Lemon.jpg" alt="Lemon 앨범 커버">
+                </figure>
+
+                <h1 class="songtitle">Lemon</h1>
+                <p class="artist-name">Kenshi Yonezu</p>
+                <p><a href="#lyrics">가사/곡 정보 보기 ↓</a></p>
+            </section>
+
+            <div class="detail-area" id="lyrics">
+                <section class="detailbox lyricsbox">                    
+                    <h2>가사</h2>
+                    <p class="lyric">夢ならばどれほどよかったでしょう
+유메나라바 도레호도 요캇타데쇼오
+꿈이라면 얼마나 좋았을까
+
+未だにあなたのことを夢にみる
+이마다니 아나타노 코토오 유메니 미루
+아직도 당신을 꿈 속에서 봐
+
+忘れた物を取りに歸るように
+와스레타 모노오 토리니 카에루요우니
+잊은 것을 가지러 돌아가는 것처럼
+
+古びた思い出の埃を拂う
+후루비타 오모이데노 호코리오 하라우
+오래된 추억의 먼지를 털어내
+
+戾らない幸せがあることを
+모도라나이 시아와세가 아루 코토오
+되돌아갈 수 없는 행복이 있다는 것을
+
+最後にあなたが敎えてくれた
+사이고니 아나타가 오시에테쿠레타
+마지막으로 당신이 가르쳐줬어
+
+言えずに隱してた昏い過去も
+이에즈니 카쿠시테타 쿠라이 카코모
+말하지 못한 채 숨기고 있던 어두운 과거도
+
+あなたがいなきゃ永遠に昏いまま
+아나타가 이나캬 에이엔니 쿠라이마마
+당신이 아니었다면 영원히 어두운 채로
+
+きっともうこれ以上　傷つくことなど
+킷토 모오 코레이죠오 키즈츠쿠 코토나도
+분명, 더 이상 상처입는 일 따윈
+
+ありはしないとわかっている
+아리와 시나이토 와캇테이루
+있을 수 없다는 걸 알아
+
+あの日の悲しみさえ
+아노 히노 카나시미사에
+그날의 슬픔조차
+
+あの日の苦しみさえ
+아노 히노 쿠루시미사에
+그날의 괴로움조차
+
+そのすべてを愛してた あなたとともに
+소노 스베테오 아이시테타 아나타토 토모니
+그 모든 것을 사랑했던 당신과 함께
+
+胸に殘り離れない
+무네니 노코리 하나레나이
+가슴에 남아 떠나지 않는
+
+苦いレモンのにおい
+니가이 레몬노 니오이
+씁쓸한 레몬의 향기
+
+雨が降り止むまでは歸れない
+아메가 후리야무마데와 카에레나이
+비가 그칠 때까지는 돌아갈 수 없어
+
+今でもあなたはわたしの光
+이마데모 아나타와 와타시노 히카리
+지금도 당신은 나의 빛
+
+暗闇であなたの背をなぞった
+쿠라야미데 아나타노 세오 나좃타
+어둠 속에서 당신의 모습을 덧그렸어
+
+その輪郭を鮮明に覺えている
+소노 린카쿠오 센메이니 오보에테이루
+그 윤곽을 선명하게 기억하고 있어
+
+受け止めきれないものと出会うたび
+우케토메키레나이 모노토 데아우 타비
+받아들일 수 없는 것과 마주칠 때마다
+
+溢れてやまないのは淚だけ
+아후레테 야마나이노와 나미다다케
+멈추지 않고 흘러 넘치는 것은 눈물 뿐
+
+何をしていたの　何を見ていたの
+나니오시테이타노 나니오미테이타노
+무엇을 하고 있을까, 무엇을 보고 있을까
+
+わたしの知らない橫顔で
+와타시노 시라나이 요코가오데
+내가 모르는 얼굴을 하고서
+
+どこかであなたが今
+도코카데 아나타가 이마
+어디선가 당신이 지금
+
+わたしと同じ様な
+와타시토 오나지요오나
+나처럼
+
+淚にくれ　淋しさの中にいるなら
+나미다니쿠레 사비시사노 나카니 이루나라
+눈물이 주는 쓸쓸함 속에 있다면
+
+わたしのことなどどうか　忘れてください
+와타시노 코토나도 도오카 와스레테쿠다사이
+나같은 것 따윈 부디 잊어주기를
+
+そんなことを心から願うほどに
+손나 코토오 코코로카라 네가우 호도니
+그런 것을 진심으로 바랄 정도로
+
+今でもあなたはわたしの光
+이마데모 아나타와 와타시노 히카리
+지금도 당신은 나의 빛이야
+
+自分が思うより
+지분가 오모우요리
+나 자신이 생각한 것보다도
+
+戀をしていたあなたに
+코이오 시테이타 아나타니
+사랑했던 당신에게
+
+あれから思うように
+아레카라 오모우요우니
+그날부터 생각대로
+
+息ができない
+이키가 데키나이
+숨을 쉬지 못 하겠어
+
+あんなに側にいたのに
+안나니 소바니 이타노니
+그렇게나 곁에 있었는데도
+
+まるで噓みたい
+마루데 우소 미타이
+마치 거짓말같아
+
+とても忘れられない
+토테모 와스레라레나이
+어떻게 해도 잊을 수 없어
+
+それだけが確か
+소레다케가 타시카
+그것만이 확실해
+
+あの日の悲しみさえ
+아노히노 카나시미사에
+그날의 슬픔조차
+
+あの日の苦しみさえ
+아노히노 쿠루시미사에
+그날의 괴로움조차도
+
+そのすべてを愛してた　あなたとともに
+소노 스베테오 아이시테타 아나타토 토모니
+그 전부를 사랑했었던 당신과 함께
+
+胸に殘り離れない
+무네니 노코리하나레나이
+가슴에 남아 떠나지 않는
+
+苦いレモンのにおい
+니가이 레몬노 니오이
+씁쓸한 레몬의 향기
+
+雨が降り止むまでは歸れない
+아메가 후리야무마데와 카에레나이
+비가 그칠 때까지는 돌아갈 수 없어
+
+切り分けた果實の片方の樣に
+키리와케타 카지츠노 카타호오노 요오니
+잘라서 나눈 과일의 한쪽 같이
+
+今でもあなたはわたしの光
+이마데모 아나타와 와타시노 히카리
+지금도 당신은 나의 빛인걸</p>
+                </section>
+
+                <section class="detailbox" id="credits">
+                    <h2>곡 정보</h2>
+                    <p><strong>곡 제목</strong><br>Lemon</p>
+                    <p><strong>아티스트</strong><br>Kenshi Yonezu(米津 玄師)</p>
+                    <p><strong>작사/작곡</strong><br>Kenshi Yonezu(米津 玄師)</p>
+                    <p><strong>장르</strong><br>J-POP</p>
+                </section>
+
+                <section class="detailbox" id="nextsong">
+                    <h2>다음 재생</h2>
+                    <p><strong>BETELGEUSE</strong></p>
+                    <p>Yuuri</p>
+                    <hr>
+                    <p><strong>Pretender</strong></p>
+                    <p>Official髭男dism</p>
+                    <p><a href="#playlist">플레이리스트로 돌아가기 ↑</a></p>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <footer class="playbar">
+
+        <div class="bar-song">
+            <div class="small-cover">
+                <img src="lemon.jpg" alt="Lemon 앨범 커버">
+            </div>
+            <p><strong>Lemon</strong><br>Kenshi Yonezu</p>
+        </div>
+
+        <div class="playbar2">
+            <p class="button">
+                <a href="#playlist" title="이전 곡">|◀</a>
+                <a href="#player" class="playbutton" title="재생">▶</a>
+                <a href="#nextsong" title="다음 곡">▶|</a>
+            </p>
+
+            <div class="time">
+                <span>0:42</span>
+                <div class="totalline">
+                    <div class="nowline"></div>
+                </div>
+                    <span>3:51</span>
+                </div>
+            </div>
+        </div>
+
+        <p class="volume">🔊　━━━━━</p>
+
+    </footer>
+</body>
+</html>
