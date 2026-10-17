@@ -3,7 +3,7 @@ body {
     padding-bottom: 100px;
     background-color: white;
     color: #222222;
-    font-family: sans-serif;
+    font-family: Arial, "Malgun Gothic", sans-serif;
 }
 
 a {
@@ -18,8 +18,13 @@ a {
     margin: 0 auto;
     padding-top: 10px;
     text-align: right;
-    font-size: 12px;
-    color: #555555;
+    font-size: 13px;
+    color: #777777;
+}
+
+.account a {
+    color: black;
+    text-decoration: none;
 }
 
 /* 로고와 검색창 */
@@ -109,6 +114,10 @@ a {
 .music-list li {
     padding: 12px 5px;
     border-bottom: 1px solid #eeeeee;
+}
+
+.music-list li:hover {
+    background-color: #eeeeee;
 }
 
 .music-list span {
@@ -210,17 +219,21 @@ a {
     bottom: 0;
     left: 0;
     width: 100%;
+    height: 80px;
     box-sizing: border-box;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 10px 20px;
     background-color: white;
     border-top: 1px solid #cccccc;
     color: #222222;
+    z-index: 10;
 }
 
 .bar-song {
+    position: absolute;
+    left: 20px;
     display: flex;
     align-items: center;
     width: 260px;
@@ -248,49 +261,8 @@ a {
     text-align: center;
 }
 
-.button {
-    margin: 2px 0 8px;
-}
-
-.button a {
-    margin: 0 12px;
-    color: #222222;
-    text-decoration: none;
-}
-
-.button a.playbutton {
-    padding: 8px 10px;
-    background-color: #222222;
-    color: white;
-    border-radius: 50%;
-}
-
-.time {
-    display: flex;
-    align-items: center;
-    font-size: 10px;
-}
-
-.totalline {
-    flex: 1;
-    height: 4px;
-    margin: 0 8px;
-    background-color: #dddddd;
-    border-radius: 4px;
-}
-
-.nowline {
-    width: 22%;
-    height: 4px;
-    background-color: #3978b9;
-    border-radius: 4px;
-}
-
-.volume {
-    width: 150px;
-    margin: 0;
-    text-align: right;
-    font-size: 13px;
+.playbar2 audio {
+    width: 100%;
 }
 
 /* 페이지 아래 이용 안내 */
@@ -316,11 +288,4 @@ button:hover {
     bottom: 3px;
     background-color: #eeeeee;
     color: #222222;
-}
-
-.playbutton:hover {
-    position: relative;
-    bottom: 3px;
-    background-color: #555555;
-    color: white;
 }
