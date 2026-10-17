@@ -21,7 +21,7 @@ a {
     color: #555555;
 }
 
-.top-header {
+.top {
     display: flex;
     align-items: center;
     width: 82%;
@@ -42,14 +42,14 @@ a {
     height: auto;
 }
 
-.search-form {
+.search {
     display: flex;
     align-items: center;
     width: 500px;
     margin-left: 40px;
 }
 
-.search-form input {
+.search input {
     flex: 1;
     min-width: 0;
     height: 38px;
@@ -61,7 +61,7 @@ a {
     color: #222222;
 }
 
-.search-form button {
+.search button {
     padding: 9px 18px;
     background-color: white;
     color: #222222;
@@ -115,6 +115,10 @@ a {
     font-size: 12px;
 }
 
+.music-list li:hover {
+    background-color: #eeeeee;
+}
+
 .selected-song {
     background-color: #e8eef5;
     color: #285b8e;
@@ -166,7 +170,7 @@ a {
     color: #555555;
 }
 
-.detail-area {
+.detail {
     display: flex;
     margin-top: 18px;
 }
@@ -287,7 +291,7 @@ a {
     font-size: 13px;
 }
 
-.site-footer {
+.siteinfo {
     width: 82%;
     box-sizing: border-box;
     max-width: 1200px;
@@ -296,10 +300,10 @@ a {
     border-top: 1px solid #dddddd;
     border-bottom: 1px solid #dddddd;
     color: #555555;
-    font-size: 12px;
+    font-size: 13px;
 }
 
-.site-footer p {
+.siteinfo p {
     margin: 6px 0;
 }
 
@@ -315,4 +319,42 @@ button:hover {
     bottom: 3px;
     background-color: #555555;
     color: white;
+}
+
+.songmp3 {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.songmp3 audio {
+    width: 130px;
+    height: 30px;
+}
+
+.playbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-top: 1px solid #dddddd;
+    z-index: 1000;
+}
+
+.bar-song {
+    position: absolute;
+    left: 20px;
+}
+
+.playbar2 {
+    width: 500px;
+}
+
+.playbar2 audio {
+    width: 100%;
 }

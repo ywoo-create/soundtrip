@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>11_(캡)스톤헤드_음악재생화면</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="11_(캡)스톤헤드 / 김도연(2514537) 김의린(2514088) 남현서(2516120) 조연우(2514298)">
+    <link rel="stylesheet" href="playing-1.css">
+</head>
+
+<body>
+    <div class="account">
+        <a href="index.html">홈</a> |
+        <a>로그인</a> |
+        <a>회원가입</a>
+    </div>
+
+    <header class="top" id="top">
+        <h2 class="logo">
+            <a href="index.html">
+                <img src="logo.png" width="180" alt="SoundTrip 로고">
+            </a>
+        </h2>
+
+        <form class="search" action="#" method="get">
+            <input type="text" id="search" name="search"
+                placeholder="검색어를 입력하세요">
+            <button type="submit">검색</button>
+        </form>
+    </header>
+
+    <div class="layout">
+        <aside class="sidebar" id="playlist">
+            <p class="country">JAPAN / TOKYO</p>
+            <h2>J-Indie 플레이리스트</h2>
+            <hr>
+            <h4>재생대기목록</h4>
+            <ol class="music-list">
+                <li><a href="playing-1.html">Lemon <span>Kenshi Yonezu</span></a></li>
+                <li class="selected-song"><a href="#player"></a><a>晩餐歌(Bansanka) <span>tuki.</span></a></li>
+                <li><a>meaning <span>Rol3ert</span></a></li>
+                <li><a>Sense <span>Last Dinosaurs</span></a></li>
+                <li><a>Night Kids <span>the engy</span></a></li>
+                <li><a>Sweet and Sour <span>Nulbarich</span></a></li>
+                <li><a>Funny ghost <span>the engy</span></a></li>
+            </ol>
+        </aside>
+
+        <main class="main" id="player">
+            <section class="nowplaying">
+                <p>NOW PLAYING</p>
+                <h2>J-Indie 플레이리스트</h2>
+
+                <figure class="albumcover">
+                    <img src="만찬가.jpg" alt="晩餐歌(Bansanka) 앨범 커버">
+                </figure>
+
+                <h1 class="songtitle">晩餐歌(Bansanka)</h1>
+                <p class="artist-name">tuki.</p>
+                <p><a href="#lyrics">가사/곡 정보 보기 ↓</a></p>
+            </section>
+
+            <div class="detail" id="lyrics">
+                <section class="detailbox lyricsbox">                    
+                    <h2>가사</h2>
+                    <p class="lyric">君を泣かすから だから一緒には居れないな
+키미오 나카스카라 다카라 잇쇼니와 이레나이나
+너를 울려버릴 테니까 우린 함께할 수 없어
+
+君を泣かすから 早く忘れて欲しいんだ
+키미오 나카스카라 하야쿠 와스레테 호시인다
+너를 울려버릴 테니까 빨리 잊어줬으면 해
+
+人間だからね たまには違うものも食べたいね
+닌겐다카라네- 타마니와 치가우 모노모 타베타이네
+사람인지라 말야, 가끔은 다른 것도 맛보고 싶네
+
+君を泣かすから そう君を泣かすから
+키미오 나카스카라 소- 키미오 나카스카라
+너를 울릴 테니까, 그래 너를 울리고 말 테니까
+
+でも味気ないないないないんだよね
+데모 아지케나이 나이나이나이 나인나요네
+그런데 별로 맛있게 느껴지지 않네
+
+会い会い会いたくなんだよね
+아이아이아이 아이타쿠 난다요네
+네가 보고 싶어져 버리고 마네
+
+君以外会いたくないんだよね
+키미 이가이 아이타쿠 나인다요네
+너 이외엔 만나고 싶지가 않네
+
+なんて勝手だね
+난테 캇테 다네
+나 참 제멋대로네
+
+大体曖昧なんだよね 愛の存在証明なんて
+다이타이 아이마이 난다요네 아이노 손자이 쇼-메-난테
+대체로 애매하단 말이지, 사랑의 존재 증명 같은 건
+
+君が教えてくれないか
+키미가 오시 에테 쿠레나이카
+네가 가르쳐 줄 수는 없을까
+
+何十回の夜を過ごしたって得られぬような 愛してるを並べてみて
+난쥿카이노 요루오 스고시탓 테 에라레누요-나 아이시테루오 나라베테미테
+몇십 번의 밤을 보내더라도 얻을 수 없을 '사랑해'를 늘어놔줘
+
+何十回の夜を過ごしたって得られぬような 最高のフルコースを頂戴
+난쥿카이노 요루오 스고시탓 테 에라레누요-나 사이코오노 푸루코-스 오 쵸다이
+몇십 번의 밤을 보내더라도 얻을 수 없을 최고의 풀코스를 선사해줘</p>
+                </section>
+
+                <section class="detailbox" id="credits">
+                    <h2>곡 정보</h2>
+                    <p><strong>곡 제목</strong><br>晩餐歌(Bansanka)</p>
+                    <p><strong>아티스트</strong><br>tuki.</p>
+                    <p><strong>작사/작곡</strong><br>tuki.</p>
+                    <p><strong>장르</strong><br>J-Indie</p>
+                </section>
+
+                <section class="detailbox" id="nextsong">
+                    <h2>다음 재생</h2>
+                    <p></a><strong>meaning</a></strong></p>
+                    <p>	Rol3ert.</p>
+                    <hr>
+                    <p><strong>Sense</strong></p>
+                    <p>Last Dinosaurs</p>
+                    <p><a href="중간과제.html">플레이리스트로 돌아가기</a></p>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <footer class="siteinfo">
+        <p>이용약관 | 위치기반서비스 이용약관 | 개인정보처리방침 | 청소년보호정책</p>
+        <p>(주)스톤헤드 서울특별시 용산구 청파로47길 100</p>
+    </footer>
+
+    <footer class="playbar">
+
+        <div class="bar-song">
+            <div class="small-cover">
+                <img src="만찬가.jpg" alt="만찬가 앨범 커버">
+            </div>
+            <p><strong>晩餐歌(Bansanka)</strong><br>tuki.</p>
+        </div>
+
+        <div class="playbar2">
+            <audio controls preload="metadata">
+                <source src="만찬가.mp3" type="audio/mp3">
+            </audio>
+        </div>
+    </footer>
+</body>
+</html>
