@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .background{
+            margin: 0;
+            background-image: url("배경6.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 100vh;
+        }
+        .search-box{
+        width: 700px;
+        height: 60px;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 0 15px;
+    }
+        .search-button{
+        width:60px;
+        height: 45px;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 0 15px;
+    }
+        .search-button:hover {
+            background-color: lightgray;
+    }
+
+        .search-button:active {
+            position: relative;
+            top: 2px;
+            background-color: gray;
+        }
+
+        h1{
+                text-align: center;
+                font-size: 70px;
+        }
+
+        .search-area {
+            text-align: center;
+            font-size: 30px;
+        }
+        .middle{
+            font-size:20px;
+            font-style:italic;
+            margin-left: 250px;
+        }
+        .country{
+            display: flex;
+            justify-content: center;
+
+        }
+        .country-box {
+            width: 420px;
+            height: 320px;
+
+            border: 1px solid black;
+            margin: 10px;
+        }
+
+        .country-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .country-text{
+            text-align: center;
+            font-family:돋움;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+          
+            width: 100%;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <header>
+            <img src="logo.png" width="300" height="100" alt="로고">
+        </header>
+        
+
+        <article>
+
+            <section>
+                <h1>어디로 떠나볼까요?</h1>
+        <div class="search-area">
+            <input type="search" class="search-box" placeholder="검색어를 입력하세요">
+            <input type="button" class="search-button" value="검색">
+        </div>
+            </section>
+
+        <section>
+            <br>
+            <p class="middle">내 관심사에 맞는 나라를 클릭해보세요<br>
+            무슨 노래를 좋아하시나요?</p>
+            </section>
+
+        <section>
+            <div class="country">
+                <div class="country-box">
+                    <img src="한국.png" alt="한국">
+                    <p class="country-text">한국-부산</p>
+                </div>
+                <div class="country-box">
+                    <img src="미국.png" alt="미국">
+                    <p class="country-text">미국-뉴욕</p>
+                </div>
+                <div class="country-box">
+                    <img src="일본.png" alt="일본">
+                    <p class="country-text">일본-도쿄</p>
+                </div>
+                <div class="country-box">
+                    <img src="프랑스.png" alt="프랑스">
+                    <p class="country-text">프랑스-파리</p>
+                </div>
+            </div>
+        </section>
+        </article>
+    
+    <footer>
+        <hr>
+        <p>
+            이용약관 | 위치기반서비스 이용약관 | 개인정보처리방침 | 청소년보호정책
+        </p>
+        <p>
+            (주)스톤헤드 서울특별시 용산구 청파로47길 100
+        </p>
+    </footer>
+    </div>
+
+</body>
+</html>
