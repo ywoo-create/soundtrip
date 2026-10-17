@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .background{
+            margin: 0;
+            background-image: url("");
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 100vh;
+        }
+                /* 상단 전체 영역 */
+        .top-container {
+            width: 82%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+
+        /* 맨 위: 로고 + 홈/로그인/회원가입 */
+        .top-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-right:150px;
+            margin-top:-20px;
+
+            padding: 20px 0;
+        
+        }
+
+
+        /* 왼쪽 로고 */
+        .top-logo {
+            width: 550px;
+            height: auto;
+            margin-left:100px;
+            margin-top: 20px;
+        }
+
+
+        /* 오른쪽 메뉴 */
+        .account {
+            font-size:20px;
+            font-family: sans-serif; 
+            color: #777;
+        }
+
+        .account a {
+            color: black;
+            text-decoration: none;
+            font-family: sans-serif; 
+            
+        }
+
+
+        /* 가운데 제목 */
+        h1 {
+            text-align: center;
+            font-size: 100px;
+            margin-top: 60px;
+            margin-bottom: 40px;
+            font-family: sans-serif; 
+        }
+
+
+        /* 검색창 전체 */
+        .main-search {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: sans-serif; 
+            margin-bottom: 50px;
+        }
+
+
+        /* 검색 입력창 */
+        .main-search-box {
+            width: 900px;
+            height: 80px;
+
+            border: 1px solid black;
+            border-radius: 30px;
+
+            padding: 0 20px;
+            margin-right: 10px;
+        }
+
+
+        /* 검색 버튼 */
+        .main-search-button {
+            width: 70px;
+            height: 50px;
+
+            border: 1px solid black;
+            border-radius: 25px;
+
+            background-color: white;
+        }
+        .search-button:hover {
+            background-color: lightgray;
+            }
+
+        .search-button:active {
+            position: relative;
+            top: 2px;
+            background-color: gray;
+        }
+
+        h1{
+                text-align: center;
+                font-size: 70px;
+                font-style:arial;
+        }
+
+
+        .middle{
+            font-size:30px;
+            font-family: sans-serif; 
+            margin-left: 380px;
+        }
+        .country{
+            display: flex;
+            justify-content: center;
+
+        }
+        .country{
+            display: flex;
+            justify-content: center;
+
+        }
+        .country-box {
+            width: 420px;
+            font-family: sans-serif; 
+            font-size:20px;
+            border-radius: 20px;
+            border: 1px solid rgb(176, 173, 173);
+            margin: 10px;
+        }
+
+        .country-box img {
+            width: 100%;
+            height: 320px;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+        .country-text{
+            text-align: center;
+            font-family: sans-serif; 
+        }
+        .second-row {
+            margin-top: 30px;
+        }
+        
+        
+        footer {
+           
+            bottom: 0;
+          
+            width: 100%;
+            background-color: white;
+        }
+        hr{
+            border: 1px solid rgb(176, 173, 173);
+        }
+       
+        
+    
+
+        
+    </style>
+</head>
+<body>
+    <div class="background">
+        <header class="top-bar">
+
+        <img src="logo3.png" class="top-logo" alt="SoundTrip 로고">
+
+        <div class="account">
+            <a href="#">홈</a> | 로그인 | 회원가입
+        </div>
+
+    </header>
+
+
+    <!-- Tripadvisor처럼 가운데 제목 -->
+    <h1>어디로 떠나볼까요?</h1>
+
+
+    <!-- Tripadvisor처럼 제목 아래 검색창 -->
+    <div class="main-search">
+
+        <input type="search"
+               class="main-search-box"
+               placeholder="검색어를 입력하세요">
+
+        <input type="button"
+               class="main-search-button"
+               value="검색">
+
+    </div>
+
+        <section>
+            <br>
+            <p class="middle">내 관심사에 맞는 나라를 클릭해보세요<br>
+            무슨 노래를 좋아하시나요?</p>
+            </section>
+
+        <section>
+            <div class="country">
+                <div class="country-box">
+                    <img src="한국.png" alt="한국">
+                    <p class="country-text">한국-부산</p>
+                </div>
+                <div class="country-box">
+                    <img src="미국.png" alt="미국">
+                    <p class="country-text">미국-뉴욕</p>
+                </div>
+                <div class="country-box">
+                    <img src="일본.png" alt="일본">
+                    <p class="country-text">일본-도쿄</p>
+                </div>
+                <div class="country-box">
+                    <img src="프랑스.png" alt="프랑스">
+                    <p class="country-text">프랑스-파리</p>
+                </div>
+            </div>
+
+            <div class="country second-row"></div>
+
+            <div class="country">
+                <div class="country-box">
+                    <img src="영국 런던.jpg" alt="영국">
+                    <p class="country-text">영국-런던</p>
+                </div>
+                <div class="country-box">
+                    <img src="브라질 리우.jpg" alt="브라질">
+                    <p class="country-text">브라질-리우</p>
+                </div>
+                <div class="country-box">
+                    <img src="스페인.jpg" alt="스페인">
+                    <p class="country-text">스페인-바르셀로나</p>
+                </div>
+                <div class="country-box">
+                    <img src="독일 베를린.jpg" alt="독일">
+                    <p class="country-text">독일-베를린</p>
+                </div>
+            </div>
+        </section>
+      
+    </div>
+    <footer>
+        <hr>
+        <p>
+            이용약관 | 위치기반서비스 이용약관 | 개인정보처리방침 | 청소년보호정책
+        </p>
+        <p>
+            (주)스톤헤드 서울특별시 용산구 청파로47길 100
+        </p>
+    </footer>
+    
+
+</body>
+</html>
