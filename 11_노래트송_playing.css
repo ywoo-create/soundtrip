@@ -1,0 +1,339 @@
+body 
+{
+    margin: 0;
+    background-color: white;
+    color: #222222;
+    font-family: sans-serif;
+    padding-bottom: 100px;
+}
+
+a 
+{
+    color: #222222;
+    text-decoration: none;
+}
+
+a:hover 
+{
+    color: #3978b9;
+}
+
+.menu 
+{
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: right;
+    font-size: 12px;
+    color: #555555;
+}
+
+.top 
+{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+    padding: 18px 0;
+    background-color: white;
+    border-bottom: 1px solid #dddddd;
+}
+
+.logo 
+{
+    margin: 0;
+    width:20%;
+}
+
+.logo img 
+{
+    display: block;
+    width: 75%;
+}
+
+.logo:hover img 
+{
+    opacity: 0.7;
+}
+
+.search 
+{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    margin-left: 40px;
+}
+
+.search input 
+{
+    flex-grow: 1;
+    height: 38px;
+    padding: 0px 18px;
+    border: 1px solid #222222;
+    border-radius: 20px;
+    margin-right: 10px;
+    background-color: white;
+    color: #222222;
+}
+
+.search button 
+{
+    padding: 9px 18px;
+    background-color: white;
+    color: #222222;
+    border: 1px solid #222222;
+    border-radius: 20px;
+}
+
+.layout 
+{
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.sidebar 
+{
+    width: 20%;
+    padding: 23px 15px;
+    background-color: #fafafa;
+    border-right: 1px solid #dddddd;
+}
+
+.country 
+{
+    color: #3978b9;
+    font-size: 12px;
+}
+
+.sidebar h2 
+{
+    margin-bottom: 5px;
+}
+
+.sidebar hr 
+{
+    margin: 22px 0;
+    border: 0;
+    border-top: 1px solid #dddddd;
+}
+
+.songlist 
+{
+    padding-left: 25px;
+}
+
+.songlist li 
+{
+    padding: 12px 5px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.songlist span 
+{
+    display: block;
+    margin-top: 4px;
+    color: #777777;
+    font-size: 12px;
+}
+
+.songlist li:hover 
+{
+    background-color: #eeeeee;
+}
+
+.select 
+{
+    background-color: #e8eef5;
+    color: #285b8e;
+}
+
+.select a 
+{
+    color: #285b8e;
+}
+
+.main 
+{
+    flex-grow: 1;
+    padding: 20px;
+    background-color: white;
+}
+
+.nowplaying 
+{
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid #dddddd;
+}
+
+.nowplaying h2 
+{
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.nowplaying a
+{
+    color: #888888;
+}
+
+.nowplaying a:hover
+{
+    color: #285b8e;
+}
+
+.albumcover 
+{
+    width: 300px;
+    height: 300px;
+    margin: 22px auto;
+    padding: 0;
+}
+
+.albumcover img 
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.songtitle 
+{
+    margin-bottom: 5px;
+}
+
+.artist
+{
+    margin-top: 5px;
+    color: #555555;
+}
+
+.detail 
+{
+    display: flex;
+    margin-top: 18px;
+}
+
+.detailbox 
+{
+    flex-grow: 1;
+    height: 300px;
+    margin-right: 12px;
+    padding: 15px;
+    background-color: #fafafa;
+    border: 1px solid #dddddd;
+}
+
+.detailbox:last-child 
+{
+    margin-right: 0;
+}
+
+.detailbox h2
+{
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.lyricsbox 
+{
+    height: 300px;
+    overflow: auto;
+}
+
+.lyric 
+{
+    white-space: pre;
+    line-height: 1.7;
+}
+
+.playbar 
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-top: 1px solid #dddddd;
+    color: #222222;
+    z-index: 1000;
+}
+
+.smallleft 
+{
+    position: absolute;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+.smallleft p 
+{
+    margin: 0;
+    font-size: 13px;
+}
+
+.smallcover 
+{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.smallcover img 
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.playbar2 
+{
+    width: 40%;
+}
+
+.playbar2 audio 
+{
+    width: 100%;
+}
+
+.info 
+{
+    width: 85%;
+    box-sizing: border-box;
+    margin: 30px auto 20px;
+    padding: 8px 12px;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    color: #555555;
+    font-size: 13px;
+}
+
+.info p 
+{
+    margin: 6px 0;
+}
+
+button:hover 
+{
+    position: relative;
+    bottom: 3px;
+    background-color: #eeeeee;
+    color: #222222;
+}
+
+.artistsmall 
+{
+    color: #888888;
+    font-size: 13px;
+    margin-top: 4px;
+}
