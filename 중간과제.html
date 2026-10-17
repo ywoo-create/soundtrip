@@ -19,7 +19,8 @@
   .header { display: flex; align-items: center; padding: 20px 0; border-bottom: 1px solid #ddd; }
   .header > a img { display: block; height: 40px; width: auto; }
   .search { display: flex; align-items: center; flex: 1; max-width: 560px; margin-left: 40px; }
-  .search input { flex: 1; min-width: 0; height: 40px; padding: 0 20px; border: 1px solid black; border-radius: 20px; margin-right: 10px; }
+  .search input { flex: 1; min-width: 0; height: 40px; padding: 0 20px; border: 1px solid black; border-radius: 20px; margin-right: 10px; } 
+  .search button:active { background-color: #d6d5d5; }
   .like-button{cursor:pointer;display:inline-block;}
   .like-button input{ display:none;}
   .heart-fill{display:none;}
@@ -41,6 +42,7 @@
   h3 { margin: 40px 0 15px 0; }
   .buttons { display: flex; }
   button { padding: 8px 18px; border-radius: 20px; background: white; border: 1px solid black; margin-right: 10px; cursor: pointer; }
+  .buttons button:active { background-color: #d6d5d5; }
 
   /* 아이콘 크기 */
   .icon { width: 20px; height: 20px; }
@@ -69,7 +71,7 @@
   </a>
     <div class="search">
       <input type="text" placeholder="검색어를 입력하세요">
-      <button>검색</button>
+      <button class="search-button">검색</button>
     </div>
   </div>
 
