@@ -17,7 +17,7 @@
 
   /* 상단 바 */
   .header { display: flex; align-items: center; padding: 20px 0; border-bottom: 1px solid #ddd; }
-  .header img { height: 40px; width: auto; }
+  .header > a img { display: block; height: 40px; width: auto; }
   .search { display: flex; align-items: center; flex: 1; max-width: 560px; margin-left: 40px; }
   .search input { flex: 1; min-width: 0; height: 40px; padding: 0 20px; border: 1px solid black; border-radius: 20px; margin-right: 10px; }
   .like-button{cursor:pointer;display:inline-block;}
@@ -126,7 +126,7 @@
             <img src="favorite-fill.svg" class="icon heart-fill" alt="좋아요">
         </label>
       </td>
-      <td><img src="play.svg" class="icon" alt="듣기"></td>
+      <td><img src="play.svg" class="icon" alt="듣기"><a href="playing-1.html"></a></td>
       <td><img src="add.svg" class="icon" alt="담기"></td>
       <td><img src="download.svg" class="icon" alt="다운"></td>
     </tr>
@@ -178,7 +178,7 @@
     <tr>
       <td><input type="checkbox"></td>
       <td>5</td>
-      <td class="info">Night Kids<br><small>지 엔기(the engy)</small></td>
+      <td class="info">Night Kids<br><small>더 엔지(the engy)</small></td>
       <td>
         <label class="like-button">
             <input type="checkbox">
@@ -208,7 +208,7 @@
     <tr>
       <td><input type="checkbox"></td>
       <td>7</td>
-      <td class="info">Funny ghost<br><small>지 엔기(the engy)</small></td>
+      <td class="info">Funny ghost<br><small>더 엔지(the engy)</small></td>
       <td>
         <label class="like-button">
             <input type="checkbox">
