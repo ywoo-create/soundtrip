@@ -166,6 +166,7 @@ a:hover
     background-color: white;
     text-align: center;
     border: 1px solid #dddddd;
+    border-radius: 15px;
 }
 
 .nowplaying h2 
@@ -224,6 +225,7 @@ a:hover
     padding: 15px;
     background-color: #fafafa;
     border: 1px solid #dddddd;
+    border-radius: 15px;
 }
 
 .detailbox:last-child 
@@ -264,7 +266,7 @@ a:hover
     background-color: white;
     border-top: 1px solid #dddddd;
     color: #222222;
-    z-index: 1000;
+    z-index: 100;
 }
 
 .smallleft 
