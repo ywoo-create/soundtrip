@@ -79,7 +79,7 @@ a:hover
 .search button 
 {
     padding: 9px 18px;
-    background-color: #d4e9f7;
+    background-color: white;
     color: #222222;
     border: 1px solid #eeeeee;
     border-radius: 20px;
@@ -329,7 +329,7 @@ button:hover
 {
     position: relative;
     bottom: 3px;
-    background-color: #eeeeee;
+    background-color: #d4e9f7;
     color: #222222;
 }
 
