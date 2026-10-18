@@ -13,8 +13,11 @@
 
         .account { text-align: right; padding-top: 10px; font-size: 13px; color: #777; }
 
-        .header { display: flex; align-items: center; padding: 20px 0; border-bottom: 1px solid #ddd; }
-        .header > a img { display: block; height: 40px; width: auto; }
+        .header { display: flex; align-items: center; padding: 20px 0; border-bottom: 1px solid #ddd;}
+        .logo { margin: 0; width: 28%; }
+        .logo img { display: block; width: 75%; }
+        .logo:hover img { opacity: 0.7; }
+
         .search { display: flex; align-items: center; flex: 1; max-width: 560px; margin-left: 40px;}
         .search input { flex: 1; min-width: 0; height: 40px; padding: 0 20px; border-radius: 20px; margin-right: 10px;} 
         .search button { background-color:#7bb2e8; color:aliceblue;border:1px solid #31608f; }
@@ -59,7 +62,7 @@
   <div class="account"><a href="11_노래트송_index.html">홈</a> | 로그인 | 회원가입 </div>
 
   <div class="header">
-  <a href="11_노래트송_index.html">
+  <a class="logo" href="11_노래트송_index.html">
     <img src="11_logo.png" alt="SoundTrip 로고">
   </a>
     <div class="search">
